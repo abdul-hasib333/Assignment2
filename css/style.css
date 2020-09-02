@@ -1,0 +1,83 @@
+*{margin: 0;
+  padding: 0
+  }
+
+ a{
+ 	text-decoration: none;
+ }
+  .menu-bar{
+  	text-align: center;
+  	height: 70px;
+  	background:grey;
+  	line-height:70px;
+  	color: white;
+  }
+  .menu-bar ul li{
+  	display: inline-block;
+  }
+  .menu-bar ul li a{
+  	font-size: 18px;
+  	color:white;
+  	font-weight: 600;
+  	margin: 0px 10px;
+    transition: 0.5s;
+    text-align:center;
+
+  }
+
+.menu-bar ul li a:hover{
+	color: black;
+    font-size: 20px;
+    transition:0.5s;
+}
+
+
+
+.banner{
+	background-image: url(../img/banner.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+
+}
+.banner h1{
+	font-size: 52px;
+	text-align:center;
+	color: black;
+	padding-top:0 auto;
+}
+.social-media{
+	text-align: center;
+	margin-top: 80px;
+}
+.social-media ul li{
+	list-style: none;
+	display: inline-block;
+}
+.social-media ul li a i{
+	font-size: 22px;
+	height: 60px;
+	width: 60px;
+	background: grey;
+	border-radius: 100%;
+	text-align: center;
+	line-height: 60px;
+	color:white;
+	margin: 0 10px;
+}
+.social-media ul li a i:hover{
+	background-color:black;
+	transition: 0.5s;
+	transform:scale(1.2);
+
+}
+.form-body{
+	width: 300px;
+	height: 400px;
+	background: grey;
+	margin: 0 auto;
+}
+.button{
+	padding-right: 10px
+}
